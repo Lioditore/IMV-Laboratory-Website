@@ -7,7 +7,7 @@ export default function CountDown() {
     const [seconds, setSeconds] = useState(0);
 
     useEffect(() => {
-        const eventDate = new Date('Sep 25, 2021 9:30:00 GMT+0700');
+        const eventDate = new Date('Sep 25, 2028 9:30:00 GMT+0700');
 
         const counter = setInterval(() => {
             let now = new Date().getTime('GMT+0700');
